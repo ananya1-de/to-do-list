@@ -1,0 +1,58 @@
+ form{
+    margin: 30px;
+    height: 40px;
+    width: 100%;
+  }
+  form input,
+  form button{
+    width: 250px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: rgb(221, 198, 198);
+    border-radius: 5px;
+    padding: 0 5px;
+    box-shadow: inset -5px -5px 5px rgba(61, 22, 22, 0.467),
+                inset 5px 5px 5px #0002;     
+  }
+  
+  form button{
+    width: 80px;
+    margin-left: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: inset -5px -5px 5px #fff7,
+                inset 5px 5px 5px #0002;     
+  }
+  
+
+ h1{
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #382f35;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-underline-offset: 10%;
+    text-shadow: -3px -3px 3px #fff7,
+                  3px 3px 3px #0003;
+  }
+
+  
+  ul li{
+    list-style: none;
+    margin: 15px 0;
+    padding: 10px;
+    text-transform: capitalize;
+    box-shadow: -5px -5px 5px #fff7,
+                 5px 5px 5px #0002;
+    animation: opacity 0.2s linear; 
+  }
+  @keyframes opacity{
+      from{
+        opacity: 0;
+        transform: scale(0.7);
+      }
+    }
+  
+    
